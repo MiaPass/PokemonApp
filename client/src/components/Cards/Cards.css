@@ -1,0 +1,10 @@
+.Cards {
+  margin-top: -10%;
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 1% 1%;
+  position: relative;
+  justify-content: space-between;
+}

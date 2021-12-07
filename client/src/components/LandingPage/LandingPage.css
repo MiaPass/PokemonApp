@@ -1,0 +1,39 @@
+.containerLanding {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-left: -3%;
+}
+
+.link {
+  text-decoration: none;
+  color: rgb(0, 0, 195);
+}
+
+iframe {
+  width: 80%;
+  height: 90%;
+  float: left;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+hr {
+  background-color: black;
+  width: 5px;
+  height: 99.8%;
+  border: none;
+  box-shadow: -2px 0px 6px 0px rgba(0, 0, 0, 0.5);
+}
+
+label {
+  float: left;
+  margin-right: 6%;
+  text-align: center;
+}
+
+.img {
+  width: 150%;
+}

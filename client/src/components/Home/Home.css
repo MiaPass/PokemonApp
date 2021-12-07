@@ -1,0 +1,91 @@
+.container {
+  display: grid;
+  grid-template-columns: 0.7fr repeat(5, 1.33fr) 0.3fr;
+  grid-template-rows: 0.1fr 0.7fr repeat(4, 2.2fr) 0.7fr 0.1fr;
+  gap: 0px 0px;
+  overflow: hidden;
+}
+
+.paginationAreaPt1 {
+  margin-left: 10%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 0px 0px;
+  grid-area: 2 / 3 / 3 / 6;
+}
+
+.paginationPt1 {
+  grid-area: 2 / 2 / 3 / 3;
+}
+
+.navi {
+  margin-top: -400%;
+  align-self: center;
+  grid-area: 2 / 1 / 8 / 2;
+}
+
+.cardsArea {
+  grid-area: 3 / 2 / 7 / 7;
+  margin-top: 9%;
+  margin-left: 10%;
+}
+
+.paginationAreaPt2 {
+  margin-left: 10%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-area: 7 / 3 / 8 / 6;
+}
+
+.paginationPt2 {
+  margin-top: 1%;
+  grid-area: 2 / 2 / 3 / 3;
+}
+/* 
+.container {
+  display: grid;
+  grid-template-columns: 0.7fr repeat(3, 1.33fr) 0.3fr;
+  grid-template-rows: 0.1fr 0.7fr repeat(2, 2.2fr) 0.7fr 0.1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+}
+
+.paginationAreaPt1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 0px 0px;
+  grid-area: 2 / 2 / 3 / 5;
+}
+
+.paginationPt1 {
+  margin-top: -20%;
+  margin-left: 20%;
+  grid-area: 2 / 2 / 3 / 3;
+}
+
+.cardsArea {
+  grid-area: 3 / 2 / 5 / 5;
+}
+
+.navi {
+  margin-top: -250%;
+
+  grid-area: 2 / 1 / 6 / 2;
+}
+
+.paginationAreaPt2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 0px 0px;
+  grid-area: 5 / 2 / 6 / 5;
+}
+
+.paginationPt2 {
+  margin-left: 20%;
+  grid-area: 2 / 2 / 3 / 3;
+} */

@@ -1,0 +1,88 @@
+.nav {
+  height: 100%;
+  position: absolute;
+  left: 0;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+}
+
+.icon {
+  position: fixed;
+  left: 0;
+  z-index: 990;
+  background: rgb(93, 132, 240);
+}
+
+.icon li {
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.icon h2 {
+  width: 90px;
+  height: 135px;
+  line-height: 135px;
+  text-align: center;
+  font-size: large;
+  color: rgb(255, 255, 255);
+  text-shadow: 0 1px 0 rgb(0, 0, 0);
+}
+
+.nav:hover .text {
+  transform: rotateY(0deg);
+}
+
+.text {
+  position: fixed;
+  left: 86px;
+  background: rgb(93, 132, 240);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  transition: transform 0.24s linear;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transform-origin: left;
+  transform: perspective(1000px) rotateY(90deg);
+}
+
+.text li {
+  height: 166.5px;
+  width: 155px;
+  list-style-type: none;
+  text-align: center;
+  font-size: large;
+  color: rgb(255, 255, 255);
+  text-shadow: 0 1px 0 rgb(0, 0, 0);
+}
+
+.text a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+.text ul {
+  margin-left: -25%;
+}
+
+.navCards1 {
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+  display: flex;
+  width: 149px;
+  height: 75px;
+}
+
+.navCards2 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 150px;
+  width: 149px;
+  margin: auto;
+}
+
+@media (max) {
+}

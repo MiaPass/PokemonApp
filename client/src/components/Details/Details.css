@@ -1,0 +1,97 @@
+@font-face {
+  font-family: "Pokemon Solid";
+  src: url("C:/Users/Mia/Desktop/PI-Pokemon-main/PI-Pokemon-main/client/src/components/media/fonts/Pokemon Solid.ttf");
+}
+
+@font-face {
+  font-family: "Pokemon Hollow";
+  src: url("C:/Users/Mia/Desktop/PI-Pokemon-main/PI-Pokemon-main/client/src/components/media/fonts/Pokemon Hollow.ttf");
+}
+
+.containerDetails {
+  background-image: url(http://2.bp.blogspot.com/-CNcEOkcuJ1A/T6zvw-aZ3NI/AAAAAAAACOA/usNuc4aLZFE/s1600/pokemon-together-pokemon-wallpaper-dektop-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.infoDetails {
+  background-color: #f6f6f6;
+  display: grid;
+  grid-template-columns: 0.5fr repeat(2, 1.2fr) 0.5fr;
+  grid-template-rows: 0.5fr repeat(4, 1.2fr) 0.5fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+  width: 40%;
+}
+
+.imgDetails {
+  grid-area: 2 / 2 / 3 / 3;
+  background-image: url(https://www.pngitem.com/pimgs/m/522-5224735_open-pokeball-drawing-hd-png-download.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150%;
+  width: 150%;
+  margin-bottom: -20%;
+}
+
+.nameDetails {
+  grid-area: 2 / 3 / 3 / 4;
+  margin-bottom: -20%;
+}
+
+.specificDetails {
+  grid-area: 3 / 2 / 5 / 4;
+  width: 100%;
+  column-count: 2;
+  column-rule: 1px solid transparent;
+  align-items: center;
+  margin-bottom: -20%;
+}
+
+.otherDetails {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 0.2fr 1.4fr) 0.2fr;
+  gap: 0px 0px;
+  grid-area: 5 / 2 / 6 / 4;
+  margin-bottom: -20%;
+}
+
+.types {
+  grid-area: 2 / 1 / 3 / 4;
+}
+
+.buttonToHome {
+  grid-area: 4 / 2 / 5 / 3;
+  margin-left: 30%;
+}
+
+h3 {
+  text-align: center;
+  font-family: "Pokemon Solid";
+  letter-spacing: 4px;
+  font-size: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Pokemon Solid";
+  letter-spacing: 4px;
+  font-size: 36px;
+}
+
+.imgs {
+  margin-left: -53%;
+  height: 150px;
+}

@@ -1,0 +1,86 @@
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.totalCard {
+  background-color: transparent;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  perspective: 1000px;
+  /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.InfoCard {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.totalCard:hover .InfoCard {
+  transform: rotateX(180deg);
+}
+
+/* Position the front and back side */
+.FrontCard,
+.BackCard {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.FrontCard {
+  background-image: url(https://w7.pngwing.com/pngs/272/921/png-transparent-pokemon-pokeball-pokemon-go-pokemon-pokeball-thumbnail.png);
+  background-size: cover;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+}
+
+/* Style the back side */
+.BackCard {
+  transform: rotateX(180deg);
+  background-image: url(C:\Users\Mia\Desktop\PI-Pokemon-main\PI-Pokemon-main\client\src\components\media\pokeball.jpg);
+  background-size: cover;
+  align-items: center;
+  height: 200px;
+  width: 200px;
+}
+
+/* Flip card source : https://www.w3schools.com/howto/howto_css_flip_card.asp */
+
+img {
+  height: 85px;
+  width: 85px;
+}
+
+h4 {
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+
+p {
+  font-weight: bold;
+}
+
+.FrontCard ul {
+  margin-left: -17%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 75px;
+}
+
+.BackCard ul {
+  margin-left: -17%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 75px;
+}

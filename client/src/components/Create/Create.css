@@ -1,0 +1,78 @@
+.allPage {
+  background: rgb(255, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgb(255, 215, 0) 0%,
+    rgb(255, 215, 0, 1) 20%,
+    rgb(255, 115, 0) 50%,
+    rgb(255, 215, 0, 1) 80%,
+    rgb(255, 215, 0) 100%
+  );
+}
+
+h2,
+h4 {
+  color: white;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+input {
+  display: flex;
+  width: 80%;
+  margin-left: 27px;
+}
+
+.allInfo {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Types {
+  column-count: 4;
+  column-rule: 1px solid transparent;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonsCreate {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.buttons {
+  text-decoration: none;
+  height: max-content;
+  width: 150px;
+  font-size: large;
+  font-weight: 100;
+  color: rgb(255, 255, 255);
+  background: #000000a1;
+  border-style: outset;
+  border-color: #ffffff;
+  border-radius: 20px;
+  justify-content: space-between;
+  line-height: 225%;
+}
+
+.links {
+  color: white;
+  text-decoration: none;
+}
+
+ul {
+  margin-left: -10%;
+
+  /* justify-content: center; */
+  /* align-items: center; */
+}
